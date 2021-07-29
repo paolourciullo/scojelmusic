@@ -13,7 +13,9 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          <a href="https://nextjs.org">Scott Jelinek Music</a>
+          <a href="https://www.youtube.com/channel/UCaAKPJNbLEUth3udXSEoNtA">
+            Scott Jelinek Music
+          </a>
         </h1>
 
         {/* <p className={styles.description}>
@@ -28,20 +30,20 @@ export default function Home() {
             width={154}
             height={144}
           />
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a
+            href="https://www.youtube.com/channel/UCaAKPJNbLEUth3udXSEoNtA"
+            className={styles.card}
+          >
             <h2>YouTube &rarr;</h2>
             <p>A link to all of my Youtube content.</p>
           </a>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
+          <a href="/TourDates" className={styles.card}>
             <h2>Tour Dates &rarr;</h2>
             <p>A list of upcoming tour dates. Come see me live!</p>
           </a>
 
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className={styles.card}
-          >
+          <a href="https://www.facebook.com/sajelinek" className={styles.card}>
             <h2>Gallery &rarr;</h2>
             <p>See photos from some of my shows!</p>
           </a>
